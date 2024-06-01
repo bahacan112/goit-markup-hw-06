@@ -1,0 +1,57 @@
+@media (min-width:768px) {
+
+
+    .second-section__list-item {
+        width: calc(50% - 24px);
+        /* İki öğenin yan yana sığabilmesi için genişlik %50, gap'ı dikkate alarak */
+        flex-basis: calc(50% - 24px);
+        /* İki öğenin yan yana sığabilmesi için genişlik %50, gap'ı dikkate alarak */
+
+    }
+
+    .third-section__list>.list-item {
+        flex: 1 1 calc(50% - 24px);
+        /* Her öğenin genişliği %50, gap'i dikkate alarak */
+        width: calc(50% - 24px);
+    }
+
+    .forth-section__list .list-item {
+        flex: 1 1 calc(50% - 24px);
+        width: calc((50% - 24px));
+    }
+
+    .footer .subcontainer {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+
+
+    .footer .subcontainer {
+
+        margin-bottom: 0;
+    }
+
+    .form-p {
+
+        text-align: start;
+
+    }
+
+    .nav-list,
+    .contact {
+        display: flex;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+
+
+
+}
